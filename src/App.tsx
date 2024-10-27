@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen p-4">
-        <h1 className="text-2xl font-bold text-center">Sports Book Comparison</h1>
+        <h1 className="text-8xl font-bold text-center text-white text-shadow-neon">Oddsly</h1>
         <OddsPage />
       </div>
     </QueryClientProvider>
