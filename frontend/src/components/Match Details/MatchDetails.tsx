@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useParams, Link } from 'react-router-dom';
 import { fetchBothMatchDetails } from '../../services/api';
-// import { PlayerProps } from '../Player Props/PlayerProps';
+import { PlayerProps } from '../Player Props/PlayerProps';
 import { ArrowLeft, DollarSign } from 'lucide-react';
 import {
   DataGrid,
@@ -488,7 +488,7 @@ const MatchDetailsPage: React.FC<MatchDetailsPageProps> = ({ bankroll, setBankro
         />
 
 
-        {/* <PlayerProps sportKey={sportKey!} matchId={matchId!} /> */}
+        <PlayerProps sportKey={sportKey!} matchId={matchId!} />
 
       </div>
     </div>
